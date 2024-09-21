@@ -1,0 +1,149 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+ 
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+header {
+    background-color: #d3d3d3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.logo img {
+    display: flex;
+    align-items: center;
+      height: auto;
+        width: 110px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #000000;
+    font-weight: bolder;
+}
+ 
+.card {
+    padding: 30px;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(73, 73, 73, 0.5);
+    text-align: left;
+    margin: 30px auto;
+}
+ 
+.container {
+    padding: 30px;
+    height: auto;
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(76, 240, 0, 0.452);
+    text-align: left;
+    margin: 20px auto;
+    margin-top: 30px;
+}
+ 
+h1 {
+    color: #000;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+ 
+h2 {
+    color: #000;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+ 
+.rm-number {
+    color: #a0a0a0;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+ 
+.details {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+ 
+.linkenviar {
+    text-decoration: none;
+}
+ 
+
+form {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px; 
+}
+ 
+
+    .enviar {
+        padding: 4px 10px; 
+        border: 2px solid #c0c0c0;
+        border-radius: 20px;
+        background-color: #fff;
+        color: #000;
+        margin-top: 20px;
+        margin-left:900px;
+        font-size: 12px; 
+        text-decoration: inherit;
+        text-align: center;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        cursor: pointer; 
+        width: 80px;
+    }
+
+    .enviar a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+ 
+
+ 
+.enviar:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
+ 
+ 
+.descricao {
+    color: #939393;
+}
+ 
+.descricao1 {
+    color: #939393;
+}
+ 
+

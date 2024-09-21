@@ -1,0 +1,120 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden; 
+}
+ 
+body.custom-background {
+    font-family: 'Outfit', sans-serif;
+    background-size: cover;
+    background-position: top left;
+    background: linear-gradient(#000000, #fafafa 420%);
+}
+ 
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+ 
+.card {
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 90%;
+}
+ 
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+ 
+.logo-container img {
+    max-width: 100%;
+    height: auto;
+}
+ 
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #D9D9D9;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+ 
+.login-form button {
+    background-color: #D9D9D9;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
+ 
+ 
+ 
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #808080d8;
+    width: 19vw;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px #000000;
+    background-color: #fafafa;
+}
+ 
+.logo {
+    max-width: 250px;
+    max-height: 200px;
+}
+ 
+@media screen and (max-width: 768px) {
+    body.custom-background {
+        background-image: none;
+        background: linear-gradient(#000000, #fafafa 250%);
+    }
+ 
+    .login-container {
+        height: 80vh;
+    }
+ 
+    .card {
+        width: 80vw;
+        padding: 10px;
+    }
+ 
+    .logo-container img {
+        max-width: 150px;
+    }
+ 
+    .login-form input[type="text"],
+    .login-form input[type="password"] {
+        padding: 5px;
+    }
+ 
+    .login-form button {
+        padding: 5px 10px;
+    }
+ 
+    .card {
+        width: 40vw;
+        padding: 5%;
+    }
+ 
+    .logo {
+        max-width: 150px;
+        max-height: 100px;
+    }
+}
+
+
+
