@@ -8,11 +8,12 @@ import Login from './Components/Pages/Login'
 function App () {
   return (
     <div>
-    
+  
        <BrowserRouter>
       <Routes>
         <Route path="/Navbar" element={<Navbar />} />
         <Route path="/Login" element={<Login />} />
+       
       </Routes>
     </BrowserRouter>
        </div>
