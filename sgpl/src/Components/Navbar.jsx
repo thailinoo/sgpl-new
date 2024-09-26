@@ -1,21 +1,25 @@
-import React from 'react'
-import './Navbar.css'
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import './Navbar.css';
+
 const Navbar = () => {
+  const navigate = useNavigate();
+
+  const handleSairClick = () => {
+    navigate('/login', { replace: true });
+  };
+
   return (
-    <><header className='header'>
+    <header className='header'>
       <a href='/' className='logo'>Logo</a>
-    <nav className='navbar'>
+      <nav className='navbar'>
         <a href='/'>Solicitações</a>
         <a href='/'>Devoluções</a>
         <a href='/'>Nova Ocorrência</a>
-        <a href='/'>Sair</a>
-      </nav></header></>
-     
-  )
+        <a onClick={handleSairClick}>Sair</a>
+      </nav>
+    </header>
+  );
+};
 
-
-}
-
-
-
-export default Navbar
+export default Navbar;
