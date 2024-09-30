@@ -15,7 +15,7 @@ const Login = () => {
     return (
         <div className="custom-background">
             <div className="login-container">
-                <div className="card">
+                <div className="card2">
                     <div className="logo-container">
                         <img className="logo" src={logo} alt="Logo da Empresa" />
                     </div>

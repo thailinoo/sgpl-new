@@ -14,9 +14,8 @@ const Navbar = () => {
     <header className='header'>
       <a href='/' className='logo'><img src={logo} alt='Logo'></img></a>
       <nav className='navbar'>
-        <a href='/'>Solicitações</a>
+        <a href='/'>Histórico</a>
         <a href='/'>Devoluções</a>
-        <a href='/'>Nova Ocorrência</a>
         <a onClick={handleSairClick}>Sair</a>
       </nav>
     </header>

@@ -1,9 +1,9 @@
-.custom-background body{
-  height:100vh;
-  margin:0;
+.custom-background {
+  height: 100vh;
+  margin: 0;
   overflow: hidden;
   font-family: 'Outfit', sans-serif;
-  background: linear-gradient(rgb(0,0,0), #fafafa 420%)
+  background: linear-gradient(rgb(0, 0, 0), #fafafa 420%);
 }
 
 .login-container {
@@ -13,11 +13,11 @@
   height: 100vh;
 }
 
-.card {
+.card2 {
   background-color: #fafafa;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  padding: 40px;
   max-width: 400px;
   width: 90%;
   border: 1px solid #808080d8;
@@ -45,7 +45,7 @@
 }
 
 .login-form button {
-  background-color: #d3d3d3;
+  background-color: #D3D3D3;
   color: #000000;
   border: none;
   padding: 10px 20px;
