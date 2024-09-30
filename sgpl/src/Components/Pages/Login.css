@@ -1,9 +1,9 @@
-body {
-  height: 100vh; 
-  margin: 0;
-  overflow: hidden; 
+.custom-background body{
+  height:100vh;
+  margin:0;
+  overflow: hidden;
   font-family: 'Outfit', sans-serif;
-  background: linear-gradient(rgb(0, 0, 0), #fafafa 420%);
+  background: linear-gradient(rgb(0,0,0), #fafafa 420%)
 }
 
 .login-container {
@@ -55,14 +55,4 @@ body {
   box-sizing: border-box;
 }
 
-/* Media query para telas menores */
-@media screen and (max-width: 768px) {
-  body {
-      background: linear-gradient(#000000, #fafafa 250%);
-  }
 
-  .card {
-      width: 80vw; /* Reduzido em telas menores */
-      padding: 10px;
-  }
-}

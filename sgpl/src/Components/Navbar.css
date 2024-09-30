@@ -1,21 +1,22 @@
+
 .header{
-    position:fixed;
+    position:relative;
     top: 0;
     left:0;
-    width:100%;
-    padding: 20px 10%;
-    background: black;
+    width: 100%;
+    padding: 20px 10px;
+    background: #868686;
     display: flex;
     justify-content: space-between;
     align-items:center;
     z-index: 100;
-    box-shadow: 0 0 20px rgba(241, 241, 241, 0);
+    box-shadow: 0 0 20px rgba(161, 161, 161, 0);
 }
 
-.logo{
-    font-size: 32px;
-    color:#fff;
-    font-weight: 700;
+.logo img{ 
+width: 150px;
+height: auto;
+    
 }
 
 .navbar a {
@@ -24,6 +25,7 @@
     color:#fff;
     font-weight: 500;
     margin-left: 40px;
+    text-decoration: none;
 }
 
 .navbar a::before{
@@ -38,5 +40,5 @@
 }
 
 .navbar a:hover::before{
-width:100%;
+    width:100%;
 }
