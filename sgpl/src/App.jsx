@@ -1,15 +1,17 @@
-import { Outlet } from 'react-router-dom'
-import NavBar from './Components/Navbar'
-import './index.css'
-
+import { Outlet, useLocation } from 'react-router-dom';
+import NavBar from './Components/Navbar';
+import './index.css';
 
 function App() {
+    const location = useLocation(); // Obtém a localização atual
+
     return (
         <div>
-                <NavBar/>
-                    <Outlet />
+            {/* Renderiza a NavBar apenas se não estiver na rota de login */}
+            {location.pathname !== '/' && <NavBar />} {/* Renderiza a NavBar se a rota não for '/' */}
+            <Outlet /> {/* Renderiza os componentes filhos */}
         </div>
-    )
+    );
 }
 
-export default App
+export default App;

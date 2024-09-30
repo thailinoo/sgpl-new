@@ -42,12 +42,12 @@ header {
 .nav-link {
     text-decoration: none;
     font-size: 1.15rem;
-    color: #000000; /* Define a cor preta para o texto do link */
+    color: #000000; 
     font-weight: bolder;
 }
 
 .nav-link:hover {
-    color: #555555; /* Define a cor cinza escuro para o texto do link quando o cursor está sobre ele */
+    color: #555555; 
 }
 
 .mobile-menu-icon {
@@ -114,37 +114,4 @@ h1 {
 
 .card a:hover {
     color: #555555; 
-}
-
-@media screen and (max-width: 730px) {
-    .nav-bar {
-        padding: 1.5rem 4rem;
-    }
-    .nav-item {
-        display: block;
-        padding-top: 1.2rem;
-    }
-    .mobile-menu-icon {
-        display: block;
-    }
-    .mobile-menu-icon button {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-    }
-    .mobile-menu ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-    }
-    .mobile-menu .nav-item {
-        display: block;
-    }
-    .open {
-        display: block;
-    }
-    .nav-list {
-        display: none;
-    }
 }

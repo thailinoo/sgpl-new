@@ -15,8 +15,8 @@ const Navbar = () => {
       <a href='/' className='logo'><img src={logo} alt='Logo'></img></a>
       <nav className='navbar'>
         <a href='/'>Histórico</a>
-        <a href='/'>Devoluções</a>
-        <a onClick={handleSairClick}>Sair</a>
+        <a href='./Pages/Devolucoes'>Devoluções</a>
+        <a href='/'>Sair</a>
       </nav>
     </header>
   );
