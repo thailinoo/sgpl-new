@@ -3,7 +3,7 @@ import NavBar from './Components/Navbar';
 import './index.css';
 
 function App() {
-    const location = useLocation(); // Obtém a localização atual
+    const location = useLocation(); 
 
     return (
         <div>

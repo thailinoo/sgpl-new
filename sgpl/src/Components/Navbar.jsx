@@ -14,8 +14,8 @@ const Navbar = () => {
     <header className='header'>
       <a href='/' className='logo'><img src={logo} alt='Logo'></img></a>
       <nav className='navbar'>
-        <a href='/'>Histórico</a>
-        <a href='./Pages/Devolucoes'>Devoluções</a>
+        <a href='/Historico'>Histórico</a>
+        <a href='/Devolucoes'>Devoluções</a>
         <a href='/'>Sair</a>
       </nav>
     </header>

@@ -1,0 +1,92 @@
+.custom-background2 {
+    font-family: 'Outfit', sans-serif;
+    background-size: cover;
+    background-position: top left;
+    background: linear-gradient(#000000, #fafafa 420%);
+}
+
+.card.principal {
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 35px;
+    max-width: 400px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.card.vermelho2 {
+    background-color: rgba(254, 0, 0, 0.5); /* Cor vermelha */
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.card.amarelo2 {
+    background-color: rgba(251, 255, 44, 0.5); /* Cor amarela */
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.card.verde2 {
+    background-color: rgba(46, 222, 18, 0.5); /* Cor verde */
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo {
+    max-width: 250px;
+    max-height: 200px;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #000000;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.close-button:focus {
+    outline: none;
+}

@@ -1,17 +1,38 @@
-import  { useState } from 'react';
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Login.css';
 import logo from './logo.png';
- 
+
 const Login = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
- 
+    const [error, setError] = useState('');
+    const navigate = useNavigate();
+
     const handleSubmit = (event) => {
         event.preventDefault();
+        
+        const regex = /^RM\d+$/; 
+        if (!regex.test(username)) {
+            setError('O username deve começar com "RM" seguido apenas por números.');
+            return;
+        }
+
         console.log('Username:', username);
         console.log('Password:', password);
+        navigate('/Notificacao');
     };
- 
+
+    const handlePasswordChange = (e) => {
+        const value = e.target.value;
+
+    
+        if (/^\d*$/.test(value)) {
+            setPassword(value);
+            setError(''); 
+        }
+    };
+
     return (
         <div className="custom-background">
             <div className="login-container">
@@ -26,25 +47,26 @@ const Login = () => {
                             placeholder="RM do Usuário"
                             required
                             value={username}
-                            onChange={(e) => setUsername(e.target.value)}
+                            onChange={(e) => {
+                                setUsername(e.target.value);
+                                setError('');
+                            }}
                         />
+                        {error && <p style={{ color: 'red' }}>{error}</p>} {/* Exibe mensagem de erro */}
                         <input
-                            type="password"
+                            type="password" 
                             name="password"
-                            placeholder="Senha"
-                            pattern="[0-9]+"
-                            title="Por favor, digite apenas números"
+                            placeholder="Senha (apenas números)"
                             required
                             value={password}
-                            onChange={(e) => setPassword(e.target.value)}
+                            onChange={handlePasswordChange} 
                         />
-                        <button type="submit" >Entrar</button>
+                        <button type="submit">Entrar</button>
                     </form>
                 </div>
             </div>
         </div>
-        
-    )
+    );
 }
 
-export default Login
+export default Login;

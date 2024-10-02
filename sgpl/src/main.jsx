@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.jsx';
 import Login from './Components/Pages/Login.jsx';
-import Historico from './Components/Pages/Historico.jsx'; // Importa o componente Historico
-import Devolucoes from './Components/Pages/Devolucoes.jsx'; // Importa o componente Devolucoes
+import Historico from './Components/Pages/Historico.jsx'; 
+import Devolucoes from './Components/Pages/Devolucoes.jsx'; 
+import Notificacao from './Components/Pages/Notificacao.jsx';
 
 const router = createBrowserRouter([
   {
@@ -12,31 +13,28 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: '/',
+        path: '/', 
         element: <Login />
       },
       {
-        path: '/Historico', // Adiciona a rota para o histórico
+        path: '/Historico', 
         element: <Historico />
       },
       {
-        path: '/Devolucoes', // Adiciona a rota para devoluções
+        path: '/Devolucoes', 
         element: <Devolucoes />
-      }
+      },
     ]
-    
   },
-
   {
-    path: '/',
-    element: <Login />
-  },
-
+    path: '/Notificacao', 
+    element: <Notificacao />
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router}>
-    </RouterProvider>
-  </React.StrictMode>,
+    <RouterProvider router={router} />
+  </React.StrictMode>
 );
+
