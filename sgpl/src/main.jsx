@@ -6,7 +6,7 @@ import Login from './Components/Pages/Login.jsx';
 import Historico from './Components/Pages/Historico.jsx'; 
 import Devolucoes from './Components/Pages/Devolucoes.jsx'; 
 import Notificacao from './Components/Pages/Notificacao.jsx';
-import Devolucao1 from './Components/Pages/Devolucao1.jsx';
+
 
 
 
@@ -27,10 +27,7 @@ const router = createBrowserRouter([
         path: '/Devolucoes', 
         element: <Devolucoes />
       },
-      {
-        path: '/Devolucao1', 
-        element: <Devolucao1 />
-      },
+
     ]
   },
   {
