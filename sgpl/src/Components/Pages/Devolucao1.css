@@ -1,0 +1,70 @@
+header {
+    background-color: #d3d3d3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.devolucao-ocorrencia {
+    padding: 30px;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(73, 73, 73, 0.5);
+    text-align: left;
+    margin: 20px auto 30px;
+}
+
+.devolucao-ocorrencia h1 {
+    color: #000;
+    font-size: 30px;
+    margin: 0 0 10px 0;
+}
+
+.devolucao-ocorrencia h2 {
+    color: #000;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+.devolucao-registro {
+    color: #a0a0a0;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.devolucao-detalhes {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.devolucao-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.devolucao-btn {
+    padding: 8px 20px;
+    border: 2px solid #c0c0c0;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #000;
+    font-size: 14px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.devolucao-btn:hover {
+    background-color: #f0f0f0;
+}
+
+.devolucao-resolucao {
+    padding: 30px;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(73, 73, 73, 0.5);
+    margin: 30px auto;
+    background-color: #fff;
+}
+
+.devolucao-descricao {
+    color: #939393;
+    margin-bottom: 10px;
+}

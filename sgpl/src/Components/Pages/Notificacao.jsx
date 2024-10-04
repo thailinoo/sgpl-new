@@ -4,10 +4,10 @@ import './notificacao.css';
 import logo from './logo.png'; 
 
 const Notificacao = () => {
-    const navigate = useNavigate(); // Inicializa o navigate
+    const navigate = useNavigate(); 
 
     const handleClose = () => {
-        navigate('/Historico'); // Redireciona para a página de Histórico
+        navigate('/Historico');
     };
 
     return (

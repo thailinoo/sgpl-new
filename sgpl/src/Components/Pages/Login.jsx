@@ -26,7 +26,6 @@ const Login = () => {
     const handlePasswordChange = (e) => {
         const value = e.target.value;
 
-    
         if (/^\d*$/.test(value)) {
             setPassword(value);
             setError(''); 
@@ -36,7 +35,7 @@ const Login = () => {
     return (
         <div className="custom-background">
             <div className="login-container">
-                <div className="card2">
+                <div className="login-card">
                     <div className="logo-container">
                         <img className="logo" src={logo} alt="Logo da Empresa" />
                     </div>
@@ -52,11 +51,11 @@ const Login = () => {
                                 setError('');
                             }}
                         />
-                        {error && <p style={{ color: 'red' }}>{error}</p>} {/* Exibe mensagem de erro */}
+                        {error && <p style={{ color: 'red' }}>{error}</p>}
                         <input
                             type="password" 
                             name="password"
-                            placeholder="Senha (apenas números)"
+                            placeholder="Senha"
                             required
                             value={password}
                             onChange={handlePasswordChange} 

@@ -6,7 +6,12 @@ import Login from './Components/Pages/Login.jsx';
 import Historico from './Components/Pages/Historico.jsx'; 
 import Devolucoes from './Components/Pages/Devolucoes.jsx'; 
 import Notificacao from './Components/Pages/Notificacao.jsx';
-
+import Devolucao1 from './Components/Pages/Devolucao1.jsx';
+import Devolucao2 from './Components/Pages/Devolucao2.jsx';
+import Devolucao3 from './Components/Pages/Devolucao3.jsx';
+import Historico1 from './Components/Pages/Historico1.jsx';
+import Historico2 from './Components/Pages/Historico2.jsx';
+import Historico3 from './Components/Pages/Historico3.jsx';
 
 
 
@@ -26,6 +31,30 @@ const router = createBrowserRouter([
       {
         path: '/Devolucoes', 
         element: <Devolucoes />
+      },
+      {
+        path: '/Devolucao1', 
+        element: <Devolucao1 />
+      },
+      {
+        path: '/Devolucao2', 
+        element: <Devolucao2 />
+      },
+      {
+        path: '/Devolucao3', 
+        element: <Devolucao3 />
+      },
+      {
+        path: '/Historico1', 
+        element: <Historico1 />
+      },
+      {
+        path: '/Historico2', 
+        element: <Historico2 />
+      },
+      {
+        path: '/Historico3', 
+        element: <Historico3 />
       },
 
     ]
