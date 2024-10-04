@@ -26,7 +26,7 @@
 }
 
 .card.vermelho2 {
-    background-color: rgba(254, 0, 0, 0.5); /* Cor vermelha */
+    background-color: rgba(254, 0, 0, 0.5); 
     border-radius: 10px;
     padding: 15px;
     width: 100%;
@@ -36,7 +36,7 @@
 }
 
 .card.amarelo2 {
-    background-color: rgba(251, 255, 44, 0.5); /* Cor amarela */
+    background-color: rgba(251, 255, 44, 0.5); 
     border-radius: 10px;
     padding: 15px;
     width: 100%;
@@ -46,7 +46,7 @@
 }
 
 .card.verde2 {
-    background-color: rgba(46, 222, 18, 0.5); /* Cor verde */
+    background-color: rgba(46, 222, 18, 0.5); 
     border-radius: 10px;
     padding: 15px;
     width: 100%;

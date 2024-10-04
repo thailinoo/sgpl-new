@@ -9,14 +9,14 @@
 
 .historico-form {
     display: flex;
-    justify-content: center; /* Centraliza o botão horizontalmente */
-    margin-top: 20px; /* Espaçamento superior */
+    justify-content: center; 
+    margin-top: 20px; 
 }
 
 .button-container {
     display: flex;
-    justify-content: center; /* Centraliza o botão horizontalmente */
-    width: 100%; /* Garante que ocupe toda a largura */
+    justify-content: center; 
+    width: 100%; 
 }
 
 .ocorrencia-container h1 {
@@ -45,7 +45,7 @@ textarea {
     border-radius: 5px;
     padding: 10px;
     font-size: 14px;
-    resize: vertical; /* Permite redimensionar verticalmente */
+    resize: vertical; 
 }
 
 .btn-voltar {

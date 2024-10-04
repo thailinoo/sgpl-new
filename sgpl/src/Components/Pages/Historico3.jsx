@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './Historico3.css'; // Certifique-se de que o caminho esteja correto
+import './Historico3.css'; 
 
 const Historico3 = () => {
     const [descricao, setDescricao] = useState('');
@@ -18,7 +18,6 @@ const Historico3 = () => {
             return;
         }
         if (window.confirm('Tem certeza que deseja enviar?')) {
-            // Redirecionar para a página de devoluções
             window.location.href = '/devolucoes';
         }
     };

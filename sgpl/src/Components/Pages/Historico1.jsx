@@ -15,7 +15,7 @@ const Historico1 = () => {
     }, []);
 
     const confirmarEnvio = () => {
-        if (descricao2.trim() === '') { // Alterado de descricao para descricao2
+        if (descricao2.trim() === '') { 
             alert('Por favor, preencha a descrição do problema.');
             return;
         }
@@ -26,7 +26,7 @@ const Historico1 = () => {
 
     useEffect(() => {
         const handleBeforeUnload = () => {
-            localStorage.setItem('descricao3', descricao2); // Alterado de descricao para descricao2
+            localStorage.setItem('descricao3', descricao2); 
         };
         window.addEventListener('beforeunload', handleBeforeUnload);
         return () => {

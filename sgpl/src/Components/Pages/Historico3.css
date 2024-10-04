@@ -5,7 +5,7 @@
     box-shadow: 0 4px 8px rgba(76, 240, 0, 0.452);
     text-align: left;
     margin: 30px auto;
-    background-color: #fff; /* Fundo branco para contraste */
+    background-color: #fff; 
 }
 
 .card-ocorrencia {
@@ -15,7 +15,7 @@
     box-shadow: 0 4px 8px rgba(76, 240, 0, 0.452);
     text-align: left;
     margin: 30px auto;
-    background-color: #fff; /* Fundo branco para contraste */
+    background-color: #fff;
 }
 
 .container-ocorrencia h1 {
@@ -47,13 +47,13 @@ textarea {
     border-radius: 5px;
     padding: 10px;
     font-size: 14px;
-    resize: vertical; /* Permite redimensionar verticalmente */
+    resize: vertical; 
 }
 
 #ocorrenciaForm {
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    margin-top: 20px; /* Espaçamento superior */
+    justify-content: center; 
+    margin-top: 20px; 
 }
 
 .btn-voltar-ocorrencia {
@@ -73,9 +73,9 @@ textarea {
 }
 
 .descricao1-ocorrencia {
-    color: #939393; /* Cor cinza para a descrição do problema */
+    color: #939393; 
 }
 
 .descricao2-ocorrencia {
-    color: #939393; /* Cor cinza para a resolução do problema */
+    color: #939393; 
 }
