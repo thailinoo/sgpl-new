@@ -21,13 +21,13 @@ const Notificacao = () => {
                     </div>
                     <div className="card-container">
                         <div className="card vermelho2">
-                            <p>Urgente: Não podem esperar</p>
+                            <p>EMERGÊNCIA: Não podem esperar</p>
                         </div>
                         <div className="card amarelo2">
-                            <p>Mediano: Espera mínima</p>
+                            <p>URGENTE: Espera mínima</p>
                         </div>
                         <div className="card verde2">
-                            <p>Não urgente: Podem esperar</p>
+                            <p>ELETIVA: Podem esperar</p>
                         </div>
                     </div>
                 </div>
